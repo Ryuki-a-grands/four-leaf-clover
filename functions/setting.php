@@ -268,15 +268,113 @@ function four_leaf_clover_customize_register( $wp_customize ) {
 					)
 				)
 			);
-	    // Add a section of copyright setting.
-	    $wp_customize->add_section(
-	    	'four_leaf_clover_copyright',
-	    	array(
-	    		'panel'  => 'four_leaf_clover_setting_panel',
-	    		'priority'       => 2,
-	    		'title' => __( 'Copyright setting', 'four-leaf-clover' )
-	    	)
-	    );
+		// Add a section of single page setting.
+		$wp_customize->add_section(
+			'four_leaf_clover_page',
+			array(
+				'panel'  => 'four_leaf_clover_setting_panel',
+				'priority'       => 2,
+				'title' => __( 'Four-leaf clover setting', 'four-leaf-clover' )
+			)
+		);
+			// Add a setting for showing category column.
+			$wp_customize->add_setting(
+				'four_leaf_clover_category_show_value',
+				array(
+					'default'=>true,
+					'sanitize_callback' => 'sanitize_checkbox',
+				)
+			);
+			// Add a control for showing category column.
+			$wp_customize->add_control(
+				new WP_Customize_Control(
+					$wp_customize,
+					'four_leaf_clover_category_show_value_c',
+					array(
+						'label'          => __( 'Show the category column.', 'four-leaf-clover' ),
+						'section'        => 'four_leaf_clover_page',
+						'settings'       => 'four_leaf_clover_category_show_value',
+						'type'           => 'checkbox',
+						'priority'       => 1,
+					)
+				)
+			);
+			// Add a setting for showing tag column.
+			$wp_customize->add_setting(
+				'four_leaf_clover_tag_show_value',
+				array(
+					'default'=>true,
+					'sanitize_callback' => 'sanitize_checkbox',
+				)
+			);
+			// Add a control for showing tag column.
+			$wp_customize->add_control(
+				new WP_Customize_Control(
+					$wp_customize,
+					'four_leaf_clover_tag_show_value_c',
+					array(
+						'label'          => __( 'Show the tag column.', 'four-leaf-clover' ),
+						'section'        => 'four_leaf_clover_page',
+						'settings'       => 'four_leaf_clover_tag_show_value',
+						'type'           => 'checkbox',
+						'priority'       => 2,
+					)
+				)
+			);
+			// Add a setting for showing contributor column.
+			$wp_customize->add_setting(
+				'four_leaf_clover_contributor_show_value',
+				array(
+					'default'=>true,
+					'sanitize_callback' => 'sanitize_checkbox',
+				)
+			);
+			// Add a control for showing contributor column.
+			$wp_customize->add_control(
+				new WP_Customize_Control(
+					$wp_customize,
+					'four_leaf_clover_contributor_show_value_c',
+					array(
+						'label'          => __( 'Show the contributor column.', 'four-leaf-clover' ),
+						'description'    => __( '(When is the contributor of one person,  don\'t display even if checking.)', 'four-leaf-clover' ),
+						'section'        => 'four_leaf_clover_page',
+						'settings'       => 'four_leaf_clover_contributor_show_value',
+						'type'           => 'checkbox',
+						'priority'       => 3,
+					)
+				)
+			);
+		// Add a section of copyright setting.
+		$wp_customize->add_section(
+			'four_leaf_clover_copyright',
+			array(
+				'panel'  => 'four_leaf_clover_setting_panel',
+				'priority'       => 3,
+				'title' => __( 'Copyright setting', 'four-leaf-clover' )
+			)
+		);
+			// Add a setting for showing copyright column.
+			$wp_customize->add_setting(
+				'four_leaf_clover_copyright_show_value',
+				array(
+					'default'=>true,
+					'sanitize_callback' => 'sanitize_checkbox',
+				)
+			);
+			// Add a control for showing copyright column.
+			$wp_customize->add_control(
+				new WP_Customize_Control(
+					$wp_customize,
+					'four_leaf_clover_copyright_show_value_c',
+					array(
+						'label'          => __( 'Show the copyright.', 'four-leaf-clover' ),
+						'section'        => 'four_leaf_clover_copyright',
+						'settings'       => 'four_leaf_clover_copyright_show_value',
+						'type'           => 'checkbox',
+						'priority'       => 1,
+					)
+				)
+			);
 			// Add the setting of start year to copyright setting.
 			$wp_customize->add_setting(
 				'four_leaf_clover_year_value',
@@ -292,11 +390,11 @@ function four_leaf_clover_customize_register( $wp_customize ) {
 					'four_leaf_clover_year_c',
 					array(
 						'label'          => __( 'Copyright setting', 'four-leaf-clover' ),
-						'description'          => __( 'Start year', 'four-leaf-clover' ),
+						'description'    => __( 'Start year', 'four-leaf-clover' ),
 						'section'        => 'four_leaf_clover_copyright',
 						'settings'       => 'four_leaf_clover_year_value',
 						'type'           => 'number',
-						'priority'       => 1,
+						'priority'       => 2,
 					)
 				)
 			);
@@ -318,7 +416,7 @@ function four_leaf_clover_customize_register( $wp_customize ) {
 						'section'        => 'four_leaf_clover_copyright',
 						'settings'       => 'four_leaf_clover_last_year_setting_value',
 						'type'           => 'checkbox',
-						'priority'       => 2,
+						'priority'       => 3,
 					)
 				)
 			);
@@ -340,7 +438,7 @@ function four_leaf_clover_customize_register( $wp_customize ) {
 						'section'        => 'four_leaf_clover_copyright',
 						'settings'       => 'four_leaf_clover_last_year_value',
 						'type'           => 'number',
-						'priority'       => 3,
+						'priority'       => 4,
 					)
 				)
 			);
@@ -372,7 +470,7 @@ function four_leaf_clover_customize_register( $wp_customize ) {
 						'section'        => 'four_leaf_clover_copyright',
 						'settings'       => 'four_leaf_clover_name_value',
 						'type'           => 'select',
-						'priority'       => 4,
+						'priority'       => 5,
 						'choices'        => $ary
 					)
 				)

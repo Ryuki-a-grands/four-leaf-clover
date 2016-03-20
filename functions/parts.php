@@ -4,13 +4,17 @@ function four_leaf_clover_navi(){
 				<div class="navi">
 					<ul>
 						<li><?php _e('Posted : ','four-leaf-clover');?><a href="<?php the_permalink(); ?>"><?php echo get_the_date(); ?></a></li>
+<?php
+	if(get_theme_mod( 'four_leaf_clover_category_show_value',true )):
+?>
 						<li><?php _e('Category : ','four-leaf-clover');?><?php the_category(', ') ?></li>
 <?php
-if (! post_password_required() && ( comments_open() || get_comments_number() ) ) {
+	endif;
+	if (! post_password_required() && ( comments_open() || get_comments_number() ) ):
 ?>
 						<li><?php comments_popup_link(__('No comment.','four-leaf-clover'),__('Comment : 1','four-leaf-clover'), __('Comments : %','four-leaf-clover')); ?></li>
 <?php
-}
+	endif;
 ?>
 					</ul>
 				</div>

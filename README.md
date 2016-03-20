@@ -35,5 +35,9 @@ A class to parse color values
 
 ## Changelog
 
-* 1.0  Jan,28 2016 Initial release
-* 1.01 May,13 2016 A little bit of change about Comments area.
+* 1.0  Jan,28 2016  
+Initial release
+* 1.01 May,13 2016  
+A little bit of change about Comments area.
+* 1.02 May,14 2016  
+Selection of the display or no-display for the contributor and tag, category column.

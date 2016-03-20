@@ -59,9 +59,13 @@
 					wp_link_pages($args);
 ?>
 					<p class="footer-post-meta">
+<?php
+			if(get_theme_mod( 'four_leaf_clover_tag_show_value',true )):
+?>
 						<?php the_tags(__('Tag : ','four-leaf-clover'),', ','<br/>'); ?>
 <?php
-			if ( is_multi_author() ):
+			endif;
+			if ( is_multi_author() && get_theme_mod( 'four_leaf_clover_contributor_show_value',true )):
 ?> 
 						<?php _e('Contributor : ','four-leaf-clover')?> <a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>"><?php the_author(); ?></a>
 <?php

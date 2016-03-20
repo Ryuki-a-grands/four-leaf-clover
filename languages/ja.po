@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Four-leaf clover 1.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/four-leaf-clover\n"
-"POT-Creation-Date: 2016-03-13 09:18+0900\n"
-"PO-Revision-Date: 2016-03-13 09:19+0900\n"
+"POT-Creation-Date: 2016-03-14 22:11+0900\n"
+"PO-Revision-Date: 2016-03-14 22:12+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -35,35 +35,35 @@ msgstr "コメントは受け付けていません。"
 msgid "Posted : "
 msgstr "投稿日："
 
-#: functions/parts.php:7
+#: functions/parts.php:10
 msgid "Category : "
 msgstr "カテゴリー："
 
-#: functions/parts.php:11
+#: functions/parts.php:15
 msgid "No comment."
 msgstr "コメントがありません。"
 
-#: functions/parts.php:11
+#: functions/parts.php:15
 msgid "Comment : 1"
 msgstr "コメント：1"
 
-#: functions/parts.php:11
+#: functions/parts.php:15
 msgid "Comments : %"
 msgstr "コメント：%"
 
-#: functions/parts.php:34
+#: functions/parts.php:38
 msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">says:</span>"
 msgstr "<cite class=\"fn\">%s</cite> <span class=\"says\">より</span>"
 
-#: functions/parts.php:35
+#: functions/parts.php:39
 msgid "%1$s at %2$s"
 msgstr "%1$s %2$s"
 
-#: functions/parts.php:35
+#: functions/parts.php:39
 msgid "(Edit)"
 msgstr "（編集）"
 
-#: functions/parts.php:38
+#: functions/parts.php:42
 msgid "Your comment is awaiting moderation."
 msgstr "あなたのコメントは管理者の承認待ちです。"
 
@@ -91,7 +91,7 @@ msgstr "背景の色"
 msgid "Image Color"
 msgstr "イメージファイルの色"
 
-#: functions/setting.php:102
+#: functions/setting.php:102 functions/setting.php:277
 msgid "Four-leaf clover setting"
 msgstr "Four-leaf clover 設定"
 
@@ -159,40 +159,61 @@ msgstr "手書き体"
 msgid "Font size : "
 msgstr "フォントサイズ："
 
-#: functions/setting.php:277 functions/setting.php:294
+#: functions/setting.php:294
+msgid "Show the category column."
+msgstr "カテゴリー欄を表示する"
+
+#: functions/setting.php:316
+msgid "Show the tag column."
+msgstr "タグ欄を表示する"
+
+#: functions/setting.php:338
+msgid "Show the contributor column."
+msgstr "投稿者欄を表示する"
+
+#: functions/setting.php:339
+msgid ""
+"(When is the contributor of one person,  don't display even if checking.)"
+msgstr "（投稿者が1人の時は、チェックしても表示されません。）"
+
+#: functions/setting.php:353 functions/setting.php:392
 msgid "Copyright setting"
 msgstr "著作権設定"
 
-#: functions/setting.php:295
+#: functions/setting.php:370
+msgid "Show the copyright."
+msgstr "Copyrightを表示する"
+
+#: functions/setting.php:393
 msgid "Start year"
 msgstr "開始年"
 
-#: functions/setting.php:317
+#: functions/setting.php:415
 msgid "Year of the Last Post is the final year."
 msgstr "最終投稿の年を最終年にする。"
 
-#: functions/setting.php:339
+#: functions/setting.php:437
 msgid "Last year"
 msgstr "最終年"
 
-#: functions/setting.php:371
+#: functions/setting.php:469
 msgid "Copyright owner"
 msgstr "著作権者"
 
-#: functions/setting.php:647
+#: functions/setting.php:745
 msgid "Verdana,sans-serif"
 msgstr ""
 "Verdana, Roboto, \"Droid Sans\", \"游ゴシック\", YuGothic, \"メイリオ\", "
 "Meiryo, \"ヒラギノ角ゴ ProN W3\", \"Hiragino Kaku Gothic ProN\", \"ＭＳ Ｐゴ"
 "シック\", sans-serif"
 
-#: functions/setting.php:654
+#: functions/setting.php:752
 msgid "\"Comic Sans MS\",cursive"
 msgstr ""
 "\"Comic Sans MS\",\"HG丸ｺﾞｼｯｸM-PRO\",\"HGMaruGothicMPRO\",\"ヒラギノ丸ゴ "
 "ProN W4\", \"Hiragino Maru Gothic ProN\",\"メイリオ\", Meiryo,cursive"
 
-#: functions/setting.php:661
+#: functions/setting.php:759
 msgid "\"Times New Roman\",serif"
 msgstr ""
 "\"Times New Roman\", \"游明朝\", YuMincho, \"ヒラギノ明朝 ProN W3\", "
@@ -210,19 +231,19 @@ msgstr "ウェジットエリア"
 msgid "Add widgets here to appear in your sidebar."
 msgstr "サイドバーに表示させるにはここにウィジェットを追加してください。"
 
-#: functions.php:151
+#: functions.php:154
 msgid "Copyright &copy; %1$s %2$s All Rights Reserved."
 msgstr "Copyright &copy; %1$s %2$s All Rights Reserved."
 
-#: functions.php:152
+#: functions.php:158
 msgid "Use theme of %s"
 msgstr "Use theme of %s"
 
-#: functions.php:153
+#: functions.php:159
 msgid "https://wordpress.org/"
 msgstr "https://ja.wordpress.org/"
 
-#: functions.php:153
+#: functions.php:159
 msgid "Proudly powered by %s"
 msgstr "Proudly powered by %s"
 
@@ -277,13 +298,13 @@ msgstr "前の投稿へ"
 msgid "\tNext Post"
 msgstr "次の投稿へ"
 
-#: single.php:62
+#: single.php:65
 msgid "Tag : "
 msgstr "タグ："
 
-#: single.php:66
+#: single.php:70
 msgid "Contributor : "
-msgstr "投稿者"
+msgstr "投稿者："
 
 #. Theme Name of the plugin/theme
 msgid "Four-leaf clover"

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Four-leaf clover 1.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/four-leaf-clover\n"
-"POT-Creation-Date: 2016-03-13 00:17:58+00:00\n"
+"POT-Creation-Date: 2016-03-14 13:10:49+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -32,35 +32,35 @@ msgstr ""
 msgid "Posted : "
 msgstr ""
 
-#: functions/parts.php:7
+#: functions/parts.php:10
 msgid "Category : "
 msgstr ""
 
-#: functions/parts.php:11
+#: functions/parts.php:15
 msgid "No comment."
 msgstr ""
 
-#: functions/parts.php:11
+#: functions/parts.php:15
 msgid "Comment : 1"
 msgstr ""
 
-#: functions/parts.php:11
+#: functions/parts.php:15
 msgid "Comments : %"
 msgstr ""
 
-#: functions/parts.php:34
+#: functions/parts.php:38
 msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">says:</span>"
 msgstr ""
 
-#: functions/parts.php:35
+#: functions/parts.php:39
 msgid "%1$s at %2$s"
 msgstr ""
 
-#: functions/parts.php:35
+#: functions/parts.php:39
 msgid "(Edit)"
 msgstr ""
 
-#: functions/parts.php:38
+#: functions/parts.php:42
 msgid "Your comment is awaiting moderation."
 msgstr ""
 
@@ -88,7 +88,7 @@ msgstr ""
 msgid "Image Color"
 msgstr ""
 
-#: functions/setting.php:102
+#: functions/setting.php:102 functions/setting.php:277
 msgid "Four-leaf clover setting"
 msgstr ""
 
@@ -156,35 +156,56 @@ msgstr ""
 msgid "Font size : "
 msgstr ""
 
-#: functions/setting.php:277 functions/setting.php:294
-msgid "Copyright setting"
+#: functions/setting.php:294
+msgid "Show the category column."
 msgstr ""
 
-#: functions/setting.php:295
-msgid "Start year"
+#: functions/setting.php:316
+msgid "Show the tag column."
 msgstr ""
 
-#: functions/setting.php:317
-msgid "Year of the Last Post is the final year."
+#: functions/setting.php:338
+msgid "Show the contributor column."
 msgstr ""
 
 #: functions/setting.php:339
+msgid ""
+"(When is the contributor of one person,  don't display even if checking.)"
+msgstr ""
+
+#: functions/setting.php:353 functions/setting.php:392
+msgid "Copyright setting"
+msgstr ""
+
+#: functions/setting.php:370
+msgid "Show the copyright."
+msgstr ""
+
+#: functions/setting.php:393
+msgid "Start year"
+msgstr ""
+
+#: functions/setting.php:415
+msgid "Year of the Last Post is the final year."
+msgstr ""
+
+#: functions/setting.php:437
 msgid "Last year"
 msgstr ""
 
-#: functions/setting.php:371
+#: functions/setting.php:469
 msgid "Copyright owner"
 msgstr ""
 
-#: functions/setting.php:647
+#: functions/setting.php:745
 msgid "Verdana,sans-serif"
 msgstr ""
 
-#: functions/setting.php:654
+#: functions/setting.php:752
 msgid "\"Comic Sans MS\",cursive"
 msgstr ""
 
-#: functions/setting.php:661
+#: functions/setting.php:759
 msgid "\"Times New Roman\",serif"
 msgstr ""
 
@@ -200,19 +221,19 @@ msgstr ""
 msgid "Add widgets here to appear in your sidebar."
 msgstr ""
 
-#: functions.php:151
+#: functions.php:154
 msgid "Copyright &copy; %1$s %2$s All Rights Reserved."
 msgstr ""
 
-#: functions.php:152
+#: functions.php:158
 msgid "Use theme of %s"
 msgstr ""
 
-#: functions.php:153
+#: functions.php:159
 msgid "https://wordpress.org/"
 msgstr ""
 
-#: functions.php:153
+#: functions.php:159
 msgid "Proudly powered by %s"
 msgstr ""
 
@@ -268,11 +289,11 @@ msgstr ""
 msgid "\tNext Post"
 msgstr ""
 
-#: single.php:62
+#: single.php:65
 msgid "Tag : "
 msgstr ""
 
-#: single.php:66
+#: single.php:70
 msgid "Contributor : "
 msgstr ""
 

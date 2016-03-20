@@ -148,7 +148,13 @@ function four_leaf_clover_adds_footer() {
 	$copyright_owner_name='<a href="'.home_url('/').'">'.$name.'</a>';
 ?>
 		<footer>
+<?php
+	if(get_theme_mod( 'four_leaf_clover_copyright_show_value',true )):
+?>
 			<div class="left"><?php printf( __( 'Copyright &copy; %1$s %2$s All Rights Reserved.', 'four-leaf-clover' ),$year,$copyright_owner_name); ?></div>
+<?php
+	endif;
+?>
 			<div class="right"><?php printf( __( 'Use theme of %s', 'four-leaf-clover' ), 'four-leaf clover' ); ?><br/>
 			<a href="<?php echo esc_url( __( 'https://wordpress.org/', 'four-leaf-clover' ) ); ?>"><?php printf( __( 'Proudly powered by %s', 'four-leaf-clover' ), 'WordPress' ); ?></a></div>
 		</footer>
