@@ -125,7 +125,14 @@ function four_leaf_clover_adds_footer() {
 	}else{
 		$last_year=get_theme_mod( 'four_leaf_clover_last_year_value',date("Y") );
 	}
-	$start_year=get_theme_mod( 'four_leaf_clover_year_value',date("Y") );
+	if(get_theme_mod( 'four_leaf_clover_first_year_setting_value',true )){
+		 $found_posts = get_posts(  array("order" =>"ASC", "numberposts"=>1) ); 
+		foreach ( $found_posts as $child ) {
+			$start_year=get_the_date( "Y",$child  );
+		}
+	}else{
+		$start_year=get_theme_mod( 'four_leaf_clover_year_value',date("Y") );
+	}
 	if($start_year==$last_year){
 		$year=$last_year;
 	}elseif($start_year>$last_year){

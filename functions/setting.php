@@ -336,7 +336,7 @@ function four_leaf_clover_customize_register( $wp_customize ) {
 					'four_leaf_clover_contributor_show_value_c',
 					array(
 						'label'          => __( 'Show the contributor column.', 'four-leaf-clover' ),
-						'description'    => __( '(When is the contributor of one person,  don\'t display even if checking.)', 'four-leaf-clover' ),
+						'description'    => __( '(When a contributor is alone, it is not displayed even if I check it.)', 'four-leaf-clover' ),
 						'section'        => 'four_leaf_clover_page',
 						'settings'       => 'four_leaf_clover_contributor_show_value',
 						'type'           => 'checkbox',
@@ -400,7 +400,7 @@ function four_leaf_clover_customize_register( $wp_customize ) {
 			);
 			// Add a setting for handling of the final year to copyright setting.
 			$wp_customize->add_setting(
-				'four_leaf_clover_last_year_setting_value',
+				'four_leaf_clover_first_year_setting_value',
 				array(
 					'default'=>true,
 					'sanitize_callback' => 'sanitize_checkbox',
@@ -410,11 +410,11 @@ function four_leaf_clover_customize_register( $wp_customize ) {
 			$wp_customize->add_control(
 				new WP_Customize_Control(
 					$wp_customize,
-					'four_leaf_clover_last_year_setting_c',
+					'four_leaf_clover_first_year_setting_c',
 					array(
-						'label'          => __( 'Year of the Last Post is the final year.', 'four-leaf-clover' ),
+						'label'          => __( 'The first post year is the start year.', 'four-leaf-clover' ),
 						'section'        => 'four_leaf_clover_copyright',
-						'settings'       => 'four_leaf_clover_last_year_setting_value',
+						'settings'       => 'four_leaf_clover_first_year_setting_value',
 						'type'           => 'checkbox',
 						'priority'       => 3,
 					)
@@ -439,6 +439,28 @@ function four_leaf_clover_customize_register( $wp_customize ) {
 						'settings'       => 'four_leaf_clover_last_year_value',
 						'type'           => 'number',
 						'priority'       => 4,
+					)
+				)
+			);
+			// Add a setting for handling of the final year to copyright setting.
+			$wp_customize->add_setting(
+				'four_leaf_clover_last_year_setting_value',
+				array(
+					'default'=>true,
+					'sanitize_callback' => 'sanitize_checkbox',
+				)
+			);
+			// Add a control for handling of the final year to copyright setting.
+			$wp_customize->add_control(
+				new WP_Customize_Control(
+					$wp_customize,
+					'four_leaf_clover_last_year_setting_c',
+					array(
+						'label'          => __( 'The last post year is the final year.', 'four-leaf-clover' ),
+						'section'        => 'four_leaf_clover_copyright',
+						'settings'       => 'four_leaf_clover_last_year_setting_value',
+						'type'           => 'checkbox',
+						'priority'       => 5,
 					)
 				)
 			);
@@ -470,7 +492,7 @@ function four_leaf_clover_customize_register( $wp_customize ) {
 						'section'        => 'four_leaf_clover_copyright',
 						'settings'       => 'four_leaf_clover_name_value',
 						'type'           => 'select',
-						'priority'       => 5,
+						'priority'       => 6,
 						'choices'        => $ary
 					)
 				)

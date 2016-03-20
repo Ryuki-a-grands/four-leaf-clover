@@ -7,7 +7,7 @@
 
 ## Description
 
-Four-leaf clover is equipped responsive layout, custom menus, custom header, custom color. As the theme setting, you can change  font settings , the border style , adjust the position of the left and right side bar,display the search bar on the header. Also, you can display of any all devices by means of the responsive layout.
+Four-leaf clover is equipped with responsive layout, a custom menu, custom header, a custom color. As theme setting, you can change the position of the right and left sidebar and change the setting of the font, the border style and can display the search bar in a header. Also, you can display comfortably at all any devices by a sensitive layout.
 ![screenshot](screenshot.png)
 
 ## Copyright & License
@@ -41,3 +41,5 @@ Initial release
 A little bit of change about Comments area.
 * 1.02 May,14 2016  
 Selection of the display or no-display for the contributor and tag, category column.
+* 1.03  May,20 2016  
+Can do the first post year of the copyright in the start year. I correct wrong translation.

@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Four-leaf clover 1.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/four-leaf-clover\n"
-"POT-Creation-Date: 2016-03-14 13:10:49+00:00\n"
+"POT-Creation-Date: 2016-03-20 09:37:05+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -169,8 +169,7 @@ msgid "Show the contributor column."
 msgstr ""
 
 #: functions/setting.php:339
-msgid ""
-"(When is the contributor of one person,  don't display even if checking.)"
+msgid "(When a contributor is alone, it is not displayed even if I check it.)"
 msgstr ""
 
 #: functions/setting.php:353 functions/setting.php:392
@@ -186,26 +185,30 @@ msgid "Start year"
 msgstr ""
 
 #: functions/setting.php:415
-msgid "Year of the Last Post is the final year."
+msgid "The first post year is the start year."
 msgstr ""
 
 #: functions/setting.php:437
 msgid "Last year"
 msgstr ""
 
-#: functions/setting.php:469
+#: functions/setting.php:459
+msgid "The last post year is the final year."
+msgstr ""
+
+#: functions/setting.php:491
 msgid "Copyright owner"
 msgstr ""
 
-#: functions/setting.php:745
+#: functions/setting.php:767
 msgid "Verdana,sans-serif"
 msgstr ""
 
-#: functions/setting.php:752
+#: functions/setting.php:774
 msgid "\"Comic Sans MS\",cursive"
 msgstr ""
 
-#: functions/setting.php:759
+#: functions/setting.php:781
 msgid "\"Times New Roman\",serif"
 msgstr ""
 
@@ -221,19 +224,19 @@ msgstr ""
 msgid "Add widgets here to appear in your sidebar."
 msgstr ""
 
-#: functions.php:154
+#: functions.php:161
 msgid "Copyright &copy; %1$s %2$s All Rights Reserved."
 msgstr ""
 
-#: functions.php:158
+#: functions.php:165
 msgid "Use theme of %s"
 msgstr ""
 
-#: functions.php:159
+#: functions.php:166
 msgid "https://wordpress.org/"
 msgstr ""
 
-#: functions.php:159
+#: functions.php:166
 msgid "Proudly powered by %s"
 msgstr ""
 
@@ -307,11 +310,11 @@ msgstr ""
 
 #. Description of the plugin/theme
 msgid ""
-"Four-leaf clover is equipped responsive layout, custom menus, custom header, "
-"custom color. As the theme setting, you can change  font settings , the "
-"border style , adjust the position of the left and right side bar,display "
-"the search bar on the header. Also, you can display of any all devices by "
-"means of the responsive layout."
+"Four-leaf clover is equipped with responsive layout, a custom menu, custom "
+"header, a custom color. As theme setting, you can change the position of the "
+"right and left sidebar and change the setting of the font, the border style "
+"and can display the search bar in a header. Also, you can display "
+"comfortably at all any devices by a sensitive layout."
 msgstr ""
 
 #. Author of the plugin/theme

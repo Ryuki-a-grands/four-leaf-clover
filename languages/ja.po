@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Four-leaf clover 1.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/four-leaf-clover\n"
-"POT-Creation-Date: 2016-03-14 22:11+0900\n"
-"PO-Revision-Date: 2016-03-14 22:12+0900\n"
+"POT-Creation-Date: 2016-03-20 18:37+0900\n"
+"PO-Revision-Date: 2016-03-20 18:38+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -172,8 +172,7 @@ msgid "Show the contributor column."
 msgstr "投稿者欄を表示する"
 
 #: functions/setting.php:339
-msgid ""
-"(When is the contributor of one person,  don't display even if checking.)"
+msgid "(When a contributor is alone, it is not displayed even if I check it.)"
 msgstr "（投稿者が1人の時は、チェックしても表示されません。）"
 
 #: functions/setting.php:353 functions/setting.php:392
@@ -189,31 +188,35 @@ msgid "Start year"
 msgstr "開始年"
 
 #: functions/setting.php:415
-msgid "Year of the Last Post is the final year."
-msgstr "最終投稿の年を最終年にする。"
+msgid "The first post year is the start year."
+msgstr "最初の投稿の年を開始年にする。"
 
 #: functions/setting.php:437
 msgid "Last year"
 msgstr "最終年"
 
-#: functions/setting.php:469
+#: functions/setting.php:459
+msgid "The last post year is the final year."
+msgstr "最終の投稿の年を最終年にする。"
+
+#: functions/setting.php:491
 msgid "Copyright owner"
 msgstr "著作権者"
 
-#: functions/setting.php:745
+#: functions/setting.php:767
 msgid "Verdana,sans-serif"
 msgstr ""
 "Verdana, Roboto, \"Droid Sans\", \"游ゴシック\", YuGothic, \"メイリオ\", "
 "Meiryo, \"ヒラギノ角ゴ ProN W3\", \"Hiragino Kaku Gothic ProN\", \"ＭＳ Ｐゴ"
 "シック\", sans-serif"
 
-#: functions/setting.php:752
+#: functions/setting.php:774
 msgid "\"Comic Sans MS\",cursive"
 msgstr ""
 "\"Comic Sans MS\",\"HG丸ｺﾞｼｯｸM-PRO\",\"HGMaruGothicMPRO\",\"ヒラギノ丸ゴ "
 "ProN W4\", \"Hiragino Maru Gothic ProN\",\"メイリオ\", Meiryo,cursive"
 
-#: functions/setting.php:759
+#: functions/setting.php:781
 msgid "\"Times New Roman\",serif"
 msgstr ""
 "\"Times New Roman\", \"游明朝\", YuMincho, \"ヒラギノ明朝 ProN W3\", "
@@ -231,19 +234,19 @@ msgstr "ウェジットエリア"
 msgid "Add widgets here to appear in your sidebar."
 msgstr "サイドバーに表示させるにはここにウィジェットを追加してください。"
 
-#: functions.php:154
+#: functions.php:161
 msgid "Copyright &copy; %1$s %2$s All Rights Reserved."
 msgstr "Copyright &copy; %1$s %2$s All Rights Reserved."
 
-#: functions.php:158
+#: functions.php:165
 msgid "Use theme of %s"
 msgstr "Use theme of %s"
 
-#: functions.php:159
+#: functions.php:166
 msgid "https://wordpress.org/"
 msgstr "https://ja.wordpress.org/"
 
-#: functions.php:159
+#: functions.php:166
 msgid "Proudly powered by %s"
 msgstr "Proudly powered by %s"
 
@@ -316,17 +319,17 @@ msgstr "http://drthomas.s4.xrea.com/four-leaf-clover/"
 
 #. Description of the plugin/theme
 msgid ""
-"Four-leaf clover is equipped responsive layout, custom menus, custom header, "
-"custom color. As the theme setting, you can change  font settings , the "
-"border style , adjust the position of the left and right side bar,display "
-"the search bar on the header. Also, you can display of any all devices by "
-"means of the responsive layout."
+"Four-leaf clover is equipped with responsive layout, a custom menu, custom "
+"header, a custom color. As theme setting, you can change the position of the "
+"right and left sidebar and change the setting of the font, the border style "
+"and can display the search bar in a header. Also, you can display "
+"comfortably at all any devices by a sensitive layout."
 msgstr ""
 "Four-leaf cloverはレスポンシブレイアウト、カスタムメニュー、カスタムヘッ"
 "ター、カスタムカラーを装備しています。テーマ設定として、左右サイドバーの位置"
 "を調整、フォントの設定、ボーダースタイルを変更、ヘッダーに検索バーを表示する"
-"ことができます。また、レスポンシブレイアウトによって、タブレットやＰＣ、ス"
-"マートフォンに最適に表示されます。"
+"ことができます。また、レスポンシブレイアウトによって、タブレットやPC、スマー"
+"トフォンに最適に表示されます。"
 
 #. Author of the plugin/theme
 msgid "Dr?Thomas"
