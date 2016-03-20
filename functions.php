@@ -117,37 +117,6 @@ function four_leaf_clover_slug_widgets_init() {
 }
 add_action( 'widgets_init', 'four_leaf_clover_slug_widgets_init' );
 
-/**
- * Template for comments and pingbacks.
- *
- * To override this walker in a child theme without modifying the comments template
- * simply create your own four_leaf_clover_comment(), and that function will be used instead.
- */
-function four_leaf_clover_comment($comment, $args, $depth) {
-	$GLOBALS['comment'] = $comment; ?>
-	<li <?php comment_class(); ?> id="li-comment-<?php comment_ID() ?>">
-		<div id="comment-<?php comment_ID(); ?>">
-			<div class="comment-author vcard">
-<?php if(get_avatar($comment)): ?>
-				<div class="writer_icon"><?php echo get_avatar($comment,$size='40'); ?></div>
-<?php endif; ?>
-				<?php printf(__('<cite class="fn">%s</cite> <span class="says">says:</span>','four-leaf-clover'), get_comment_author_link()) ?>
-				<div class="comment-meta commentmetadata"><a href="<?php echo htmlspecialchars( get_comment_link( $comment->comment_ID ) ) ?>"><?php printf(__('%1$s at %2$s','four-leaf-clover'), get_comment_date(),  get_comment_time()) ?></a><?php edit_comment_link(__('(Edit)','four-leaf-clover'),'  ','') ?></div>
-			</div>
-<?php if ($comment->comment_approved == '0') : ?>
-			<em><?php _e('Your comment is awaiting moderation.','four-leaf-clover') ?></em>
-			<br />
-<?php endif; ?>
-			<div class="comment-body">
-				<?php comment_text() ?>
-			</div>
-			<div class="reply">
-				<?php comment_reply_link(array_merge( $args, array('depth' => $depth, 'max_depth' => $args['max_depth']))) ?>
-			</div>
-		</div>
-<?php
-}
-
 function four_leaf_clover_adds_footer() {
 	$lastpost = get_lastpostdate( 'blog' );
 	if(get_theme_mod( 'four_leaf_clover_last_year_setting_value',true )){
@@ -187,6 +156,7 @@ function four_leaf_clover_adds_footer() {
 }
 add_action('wp_footer', 'four_leaf_clover_adds_footer');
 
+require_once get_template_directory() . '/functions/parts.php';
 require_once get_template_directory() . '/functions/image.php';
 /**
  * Custom color for this theme.

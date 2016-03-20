@@ -4,8 +4,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Four-leaf clover 1.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/theme/four-leaf-clover\n"
-"POT-Creation-Date: 2016-02-21 21:22+0900\n"
-"PO-Revision-Date: 2016-02-21 21:23+0900\n"
+"POT-Creation-Date: 2016-03-13 09:18+0900\n"
+"PO-Revision-Date: 2016-03-13 09:19+0900\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: ja\n"
@@ -26,6 +26,46 @@ msgstr "お探しの記事は見つかりませんでした。"
 #: comments.php:13
 msgid "Comments List"
 msgstr "コメント一覧"
+
+#: comments.php:26
+msgid "Comments are closed."
+msgstr "コメントは受け付けていません。"
+
+#: functions/parts.php:6
+msgid "Posted : "
+msgstr "投稿日："
+
+#: functions/parts.php:7
+msgid "Category : "
+msgstr "カテゴリー："
+
+#: functions/parts.php:11
+msgid "No comment."
+msgstr "コメントがありません。"
+
+#: functions/parts.php:11
+msgid "Comment : 1"
+msgstr "コメント：1"
+
+#: functions/parts.php:11
+msgid "Comments : %"
+msgstr "コメント：%"
+
+#: functions/parts.php:34
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">says:</span>"
+msgstr "<cite class=\"fn\">%s</cite> <span class=\"says\">より</span>"
+
+#: functions/parts.php:35
+msgid "%1$s at %2$s"
+msgstr "%1$s %2$s"
+
+#: functions/parts.php:35
+msgid "(Edit)"
+msgstr "（編集）"
+
+#: functions/parts.php:38
+msgid "Your comment is awaiting moderation."
+msgstr "あなたのコメントは管理者の承認待ちです。"
 
 #: functions/setting.php:7
 msgid "Colors"
@@ -119,40 +159,40 @@ msgstr "手書き体"
 msgid "Font size : "
 msgstr "フォントサイズ："
 
-#: functions/setting.php:276 functions/setting.php:293
+#: functions/setting.php:277 functions/setting.php:294
 msgid "Copyright setting"
 msgstr "著作権設定"
 
-#: functions/setting.php:294
+#: functions/setting.php:295
 msgid "Start year"
 msgstr "開始年"
 
-#: functions/setting.php:316
+#: functions/setting.php:317
 msgid "Year of the Last Post is the final year."
 msgstr "最終投稿の年を最終年にする。"
 
-#: functions/setting.php:338
+#: functions/setting.php:339
 msgid "Last year"
 msgstr "最終年"
 
-#: functions/setting.php:370
+#: functions/setting.php:371
 msgid "Copyright owner"
 msgstr "著作権者"
 
-#: functions/setting.php:646
+#: functions/setting.php:647
 msgid "Verdana,sans-serif"
 msgstr ""
 "Verdana, Roboto, \"Droid Sans\", \"游ゴシック\", YuGothic, \"メイリオ\", "
 "Meiryo, \"ヒラギノ角ゴ ProN W3\", \"Hiragino Kaku Gothic ProN\", \"ＭＳ Ｐゴ"
 "シック\", sans-serif"
 
-#: functions/setting.php:653
+#: functions/setting.php:654
 msgid "\"Comic Sans MS\",cursive"
 msgstr ""
 "\"Comic Sans MS\",\"HG丸ｺﾞｼｯｸM-PRO\",\"HGMaruGothicMPRO\",\"ヒラギノ丸ゴ "
 "ProN W4\", \"Hiragino Maru Gothic ProN\",\"メイリオ\", Meiryo,cursive"
 
-#: functions/setting.php:660
+#: functions/setting.php:661
 msgid "\"Times New Roman\",serif"
 msgstr ""
 "\"Times New Roman\", \"游明朝\", YuMincho, \"ヒラギノ明朝 ProN W3\", "
@@ -170,35 +210,19 @@ msgstr "ウェジットエリア"
 msgid "Add widgets here to appear in your sidebar."
 msgstr "サイドバーに表示させるにはここにウィジェットを追加してください。"
 
-#: functions.php:134
-msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">says:</span>"
-msgstr "<cite class=\"fn\">%s</cite> <span class=\"says\">より</span>"
-
-#: functions.php:135
-msgid "%1$s at %2$s"
-msgstr "%1$s %2$s"
-
-#: functions.php:135
-msgid "(Edit)"
-msgstr "（編集）"
-
-#: functions.php:138
-msgid "Your comment is awaiting moderation."
-msgstr "あなたのコメントは管理者の承認待ちです。"
-
-#: functions.php:182
+#: functions.php:151
 msgid "Copyright &copy; %1$s %2$s All Rights Reserved."
 msgstr "Copyright &copy; %1$s %2$s All Rights Reserved."
 
-#: functions.php:183
+#: functions.php:152
 msgid "Use theme of %s"
 msgstr "Use theme of %s"
 
-#: functions.php:184
+#: functions.php:153
 msgid "https://wordpress.org/"
 msgstr "https://ja.wordpress.org/"
 
-#: functions.php:184
+#: functions.php:153
 msgid "Proudly powered by %s"
 msgstr "Proudly powered by %s"
 
@@ -210,27 +234,7 @@ msgstr "前へ"
 msgid "NEXT"
 msgstr "次へ"
 
-#: loop.php:10 single.php:49
-msgid "Posted : "
-msgstr "投稿日："
-
-#: loop.php:11 single.php:50
-msgid "Category : "
-msgstr "カテゴリー："
-
-#: loop.php:12 single.php:51
-msgid "No comment."
-msgstr "コメントがありません。"
-
-#: loop.php:12 single.php:51
-msgid "Comment : 1"
-msgstr "コメント：1"
-
-#: loop.php:12 single.php:51
-msgid "Comments : %"
-msgstr "コメント：%"
-
-#: loop.php:26
+#: loop.php:20
 msgid "Read the rest of \"%s\""
 msgstr "「%s」の続きを読む"
 
@@ -273,11 +277,11 @@ msgstr "前の投稿へ"
 msgid "\tNext Post"
 msgstr "次の投稿へ"
 
-#: single.php:68
+#: single.php:62
 msgid "Tag : "
 msgstr "タグ："
 
-#: single.php:72
+#: single.php:66
 msgid "Contributor : "
 msgstr "投稿者"
 

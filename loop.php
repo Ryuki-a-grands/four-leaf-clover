@@ -5,13 +5,7 @@
 		<div class="container">
 			<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 				<h2 class="title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-				<div class="navi">
-					<ul>
-						<li><?php _e('Posted : ','four-leaf-clover');?><a href="<?php the_permalink(); ?>"><?php echo get_the_date(); ?></a></li>
-						<li><?php _e('Category : ','four-leaf-clover');?><?php the_category(', ') ?></li>
-						<li><?php comments_popup_link(__('No comment.','four-leaf-clover'),__('Comment : 1','four-leaf-clover'), __('Comments : %','four-leaf-clover')); ?></li>
-					</ul>
-				</div>
+				<?php four_leaf_clover_navi(); ?>
 				<div class="main">
 					<?php echo the_post_thumbnail(thumbnail,array( 'alt' => get_the_title(), 'title' => get_the_title() ,'class'=> 'firstimg')); ?>
 <?php

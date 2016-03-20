@@ -44,13 +44,7 @@
 			</div>
 			<article>
 				<h2 class="title"><a href="<?php the_permalink(); ?>"><?php echo get_the_title(); ?></a></h2>
-				<div class="navi">
-					<ul>
-						<li><?php _e('Posted : ','four-leaf-clover');?><a href="<?php the_permalink(); ?>"><?php echo get_the_date(); ?></a></li>
-						<li><?php _e('Category : ','four-leaf-clover');?><?php the_category(', ') ?></li>
-						<li><a href=""><?php comments_popup_link(__('No comment.','four-leaf-clover'),__('Comment : 1','four-leaf-clover'), __('Comments : %','four-leaf-clover')); ?></a></li>
-					</ul>
-				</div>
+				<?php four_leaf_clover_navi(); ?>
 				<div class="main">
 					<?php the_content(); ?>
 				</div>

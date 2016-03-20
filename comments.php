@@ -19,9 +19,13 @@ if (post_password_required()) {
 		<div class="comment-page-link">
 				<?php paginate_comments_links();?>
 		</div>
-	<?php
+<?php
 	endif;
-	
+	if ( ! comments_open() && get_comments_number() && post_type_supports( get_post_type(), 'comments' ) ) :
+	?>
+		<p class="no-comments"><?php _e( 'Comments are closed.', 'four-leaf-clover' ); ?></p>
+<?php
+	endif;
 	comment_form();
 	?>
 </div>
