@@ -1,0 +1,312 @@
+# Copyright (C) 2016 Dr?Thomas
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Four-leaf clover 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/four-leaf-clover\n"
+"POT-Creation-Date: 2016-02-21 21:22+0900\n"
+"PO-Revision-Date: 2016-02-21 21:23+0900\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.6\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: 404.php:4
+msgid "That page does not exist."
+msgstr "そのページは存在しません。"
+
+#: 404.php:6
+msgid "You are looking for articles could not be found."
+msgstr "お探しの記事は見つかりませんでした。"
+
+#: comments.php:13
+msgid "Comments List"
+msgstr "コメント一覧"
+
+#: functions/setting.php:7
+msgid "Colors"
+msgstr "色"
+
+#: functions/setting.php:11
+msgid "Body Color"
+msgstr "本体の色"
+
+#: functions/setting.php:30
+msgid "Font Color"
+msgstr "フォントの色"
+
+#: functions/setting.php:52
+msgid "Base Color"
+msgstr "ベースの色"
+
+#: functions/setting.php:61
+msgid "Background Color"
+msgstr "背景の色"
+
+#: functions/setting.php:67 functions/setting.php:86
+msgid "Image Color"
+msgstr "イメージファイルの色"
+
+#: functions/setting.php:102
+msgid "Four-leaf clover setting"
+msgstr "Four-leaf clover 設定"
+
+#: functions/setting.php:111 functions/setting.php:131
+msgid "Layout"
+msgstr "レイアウト"
+
+#: functions/setting.php:132
+msgid "Position of the side bar"
+msgstr "サイドバーの位置"
+
+#: functions/setting.php:138
+msgid "Content / Sidebar"
+msgstr "コンテンツ / サイドバー"
+
+#: functions/setting.php:142
+msgid "Sidebar / Content"
+msgstr "サイドバー / コンテンツ"
+
+#: functions/setting.php:164
+msgid "Border style"
+msgstr "ボーダースタイル"
+
+#: functions/setting.php:170
+msgid "solid"
+msgstr "１本線"
+
+#: functions/setting.php:171
+msgid "double"
+msgstr "２本線"
+
+#: functions/setting.php:172
+msgid "dashed"
+msgstr "破線"
+
+#: functions/setting.php:173
+msgid "dotted"
+msgstr "点線"
+
+#: functions/setting.php:193
+msgid "Show search form in the header"
+msgstr "ヘッダーに検索フォームを表示する"
+
+#: functions/setting.php:208 functions/setting.php:225
+msgid "Font setting"
+msgstr "フォント設定"
+
+#: functions/setting.php:226
+msgid "Font family"
+msgstr "フォント指定"
+
+#: functions/setting.php:232
+msgid "Serif"
+msgstr "明朝体"
+
+#: functions/setting.php:233
+msgid "Sans-serif"
+msgstr "ゴシック体"
+
+#: functions/setting.php:234
+msgid "Cursive"
+msgstr "手書き体"
+
+#: functions/setting.php:254
+msgid "Font size : "
+msgstr "フォントサイズ："
+
+#: functions/setting.php:276 functions/setting.php:293
+msgid "Copyright setting"
+msgstr "著作権設定"
+
+#: functions/setting.php:294
+msgid "Start year"
+msgstr "開始年"
+
+#: functions/setting.php:316
+msgid "Year of the Last Post is the final year."
+msgstr "最終投稿の年を最終年にする。"
+
+#: functions/setting.php:338
+msgid "Last year"
+msgstr "最終年"
+
+#: functions/setting.php:370
+msgid "Copyright owner"
+msgstr "著作権者"
+
+#: functions/setting.php:646
+msgid "Verdana,sans-serif"
+msgstr ""
+"Verdana, Roboto, \"Droid Sans\", \"游ゴシック\", YuGothic, \"メイリオ\", "
+"Meiryo, \"ヒラギノ角ゴ ProN W3\", \"Hiragino Kaku Gothic ProN\", \"ＭＳ Ｐゴ"
+"シック\", sans-serif"
+
+#: functions/setting.php:653
+msgid "\"Comic Sans MS\",cursive"
+msgstr ""
+"\"Comic Sans MS\",\"HG丸ｺﾞｼｯｸM-PRO\",\"HGMaruGothicMPRO\",\"ヒラギノ丸ゴ "
+"ProN W4\", \"Hiragino Maru Gothic ProN\",\"メイリオ\", Meiryo,cursive"
+
+#: functions/setting.php:660
+msgid "\"Times New Roman\",serif"
+msgstr ""
+"\"Times New Roman\", \"游明朝\", YuMincho, \"ヒラギノ明朝 ProN W3\", "
+"\"Hiragino Mincho ProN\", \"ＭＳ Ｐ明朝\", \"MS PMincho\",serif"
+
+#: functions.php:34
+msgid "Primary Navigation"
+msgstr "メインナビゲーション"
+
+#: functions.php:109
+msgid "Widget Area"
+msgstr "ウェジットエリア"
+
+#: functions.php:111
+msgid "Add widgets here to appear in your sidebar."
+msgstr "サイドバーに表示させるにはここにウィジェットを追加してください。"
+
+#: functions.php:134
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">says:</span>"
+msgstr "<cite class=\"fn\">%s</cite> <span class=\"says\">より</span>"
+
+#: functions.php:135
+msgid "%1$s at %2$s"
+msgstr "%1$s %2$s"
+
+#: functions.php:135
+msgid "(Edit)"
+msgstr "（編集）"
+
+#: functions.php:138
+msgid "Your comment is awaiting moderation."
+msgstr "あなたのコメントは管理者の承認待ちです。"
+
+#: functions.php:182
+msgid "Copyright &copy; %1$s %2$s All Rights Reserved."
+msgstr "Copyright &copy; %1$s %2$s All Rights Reserved."
+
+#: functions.php:183
+msgid "Use theme of %s"
+msgstr "Use theme of %s"
+
+#: functions.php:184
+msgid "https://wordpress.org/"
+msgstr "https://ja.wordpress.org/"
+
+#: functions.php:184
+msgid "Proudly powered by %s"
+msgstr "Proudly powered by %s"
+
+#: index.php:10 search.php:24
+msgid "PREV"
+msgstr "前へ"
+
+#: index.php:11 search.php:29
+msgid "NEXT"
+msgstr "次へ"
+
+#: loop.php:10 single.php:49
+msgid "Posted : "
+msgstr "投稿日："
+
+#: loop.php:11 single.php:50
+msgid "Category : "
+msgstr "カテゴリー："
+
+#: loop.php:12 single.php:51
+msgid "No comment."
+msgstr "コメントがありません。"
+
+#: loop.php:12 single.php:51
+msgid "Comment : 1"
+msgstr "コメント：1"
+
+#: loop.php:12 single.php:51
+msgid "Comments : %"
+msgstr "コメント：%"
+
+#: loop.php:26
+msgid "Read the rest of \"%s\""
+msgstr "「%s」の続きを読む"
+
+#: search.php:8 search.php:13
+msgid "search results"
+msgstr "検索結果"
+
+#: search.php:9
+msgid "Your search for \"<span class=\"search-key\">%s</span>\", "
+msgstr "”<span class=\"search-key\">%s</span>”で検索した結果、"
+
+#: search.php:10
+msgid "found <span class=\"search-key\">%d</span> post."
+msgid_plural "found <span class=\"search-key\">%d</span> posts."
+msgstr[0] "<span class=\"search-key\">%d</span>件の記事を見つけました。"
+
+#: search.php:14
+msgid ""
+"Your search for \"<span class=\"search-key\">%s</span>\", related article "
+"was not found."
+msgstr "”%s”で検索した結果、記事が見つかりませんでした。"
+
+#: searchform.php:2
+msgid "Search"
+msgstr "検索"
+
+#: sidebar.php:6
+msgid "No Widget"
+msgstr "ウェジットの設定なし"
+
+#: sidebar.php:7
+msgid "Widget has not been set."
+msgstr "ウェジットが設定されていません。"
+
+#: single.php:22
+msgid "Previous Post"
+msgstr "前の投稿へ"
+
+#: single.php:38
+msgid "\tNext Post"
+msgstr "次の投稿へ"
+
+#: single.php:68
+msgid "Tag : "
+msgstr "タグ："
+
+#: single.php:72
+msgid "Contributor : "
+msgstr "投稿者"
+
+#. Theme Name of the plugin/theme
+msgid "Four-leaf clover"
+msgstr "Four-leaf clover"
+
+#. Theme URI of the plugin/theme
+msgid "http://drthomas.s4.xrea.com/four-leaf-clover/"
+msgstr "http://drthomas.s4.xrea.com/four-leaf-clover/"
+
+#. Description of the plugin/theme
+msgid ""
+"Four-leaf clover is equipped responsive layout, custom menus, custom header, "
+"custom color. As the theme setting, you can change  font settings , the "
+"border style , adjust the position of the left and right side bar,display "
+"the search bar on the header. Also, you can display of any all devices by "
+"means of the responsive layout."
+msgstr ""
+"Four-leaf cloverはレスポンシブレイアウト、カスタムメニュー、カスタムヘッ"
+"ター、カスタムカラーを装備しています。テーマ設定として、左右サイドバーの位置"
+"を調整、フォントの設定、ボーダースタイルを変更、ヘッダーに検索バーを表示する"
+"ことができます。また、レスポンシブレイアウトによって、タブレットやＰＣ、ス"
+"マートフォンに最適に表示されます。"
+
+#. Author of the plugin/theme
+msgid "Dr?Thomas"
+msgstr "Dr?Thomas"
+
+#. Author URI of the plugin/theme
+msgid "https://ja.gravatar.com/drthomas246/"
+msgstr "https://ja.gravatar.com/drthomas246/"

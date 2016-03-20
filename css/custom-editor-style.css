@@ -1,0 +1,339 @@
+/*
+html5doctor.com Reset Stylesheet
+v1.6.1
+Last Updated: 2010-09-17
+Author: Richard Clark - http://richclarkdesign.com
+Twitter: @rich_clark
+License: CC0 Public Domain Dedication and MIT License
+*/
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+img {
+	vertical-align: top;
+	font-size:0;
+	line-height: 0;
+}
+
+
+{ 
+    font-family: Arial, Helvetica, sans-serif; 
+    margin: 10px; 
+}
+
+h1,h2,h3,h4,h5,h6 {
+	margin-bottom : 24px;
+}
+
+h1{ /* 48px */
+	font-size: 48px;
+	line-height: 1;
+}
+
+h2 { /* 48px */
+	font-size : 36px;
+	line-height : 1.3333;
+}
+
+h3{ /* 24px */
+	font-size : 24px;
+	line-height : 1;
+}
+
+h4,
+h5,
+h6 { /* 24px */
+	font-size : 16px;
+	line-height : 1.5;
+}
+p {
+    display: block;
+    margin: 1em 0;
+}
+strong{
+	font-weight: bold;
+}
+em{
+	font-style: italic;
+}
+
+ul{
+    list-style: disc;
+    margin: 0 0 2px 2.5em;
+}
+ol {
+    list-style: decimal;
+    margin: 0 0 2px 2em;
+}
+li {
+    margin: 0 0 4px 0em;
+    line-height: 120%;
+    padding:0;
+}
+
+a {
+	color:#00f;
+}
+
+a:hover{
+	color: #9acd32;
+}
+.gallery-item a,
+.tiled-gallery-item a{
+	border-bottom:none;
+}
+
+.gallery-item img,
+.tiled-gallery-item img{
+	width: 250px;
+	border:none;
+	padding:0px;
+}
+
+.tiled-gallery-item img{
+	max-width: 100%;
+	height: auto;
+}
+
+sub {
+	font-size:80%;
+	vertical-align:sub;
+}
+sup {
+	font-size:80%;
+	vertical-align:super;
+}
+
+pre{
+	background:#eeeeee none repeat scroll 0 0;
+	border:1px solid #999999;
+	color:#444444;
+	display:block;
+	font-size:1em;
+	margin:1em;
+	overflow:scroll;
+	padding:0.5em;
+}
+strong{
+	font-weight: bold;
+}
+
+td,
+th {
+	padding: 10px;
+	border-bottom: 1px solid #9acd32;
+	border-left:2px solid #fff;
+	vertical-align:middle;
+}
+
+tr:nth-child(even) {
+	background: #f4faea;
+}
+
+th {
+	text-align: left;
+	border-bottom: 1px solid #9acd32;
+	background-color: #f4faea;
+}
+
+thead th:first-child {
+	border-radius: 6px 0 0 0;  
+}
+
+thead th:last-child {
+	border-radius: 0 6px 0 0;
+}
+
+thead th:only-child{
+	border-radius: 6px 6px 0 0;
+}
+
+tfoot td {
+	border-bottom: 0;
+	background-color: #f4faea; 
+}
+
+tfoot td:first-child {
+	border-radius: 0 0 0 6px;
+}
+
+tfoot td:last-child{
+	border-radius: 0 0 6px 0;
+}
+
+tfoot td:only-child{
+	border-radius: 0 0 6px 6px;
+}
+
+blockquote:before{
+	content:"\"";
+	font-family:sans-serif;
+	font-size:64px;
+	line-height:1em;
+	position:absolute;
+	color:#9acd32;
+	left:0;
+	top:0;
+}
+blockquote:after{
+	content:"\"";
+	font-family:sans-serif;
+	font-size:64px;
+	color:#9acd32;
+	position:absolute;
+	right:0;
+	bottom:-44px;
+}
+
+blockquote{
+	padding:10px;
+	margin:10px 10px 10px 60px;
+	background:#f4faea;
+	border:none;
+	border-left:5px solid #9acd32;
+	border-radius: 0px 6px 6px 0px;
+	position:relative;
+	z-index:1;
+}
+
+dt{
+	margin-bottom:5px;
+}
+dd
+{
+	margin-left:60px;
+	margin-bottom:15px;
+}
+
+.gallery-item dd{
+	margin-left:0px;
+}
+
+q {
+quotes: "\"" "\"" "'" "'";
+}
+
+q:before {
+content: open-quote;
+}
+
+q:after {
+content: close-quote;
+}
+.gallery-caption {
+    font-size: 10px;
+}
+img{
+	max-width: 98%;
+	height: auto;
+	padding:5px;
+	border: 1px solid #ccc;
+}
+
+.wp-caption img {
+    border: 0 none;
+    height: auto;
+    margin: 0;
+    max-width: 98.5%;
+    padding: 0;
+    width: auto;
+}
+.wp-caption{
+	border: 1px solid #ccc;
+	padding:5px 3px;
+}
+p.wp-caption-text {
+    font-size: 11px;
+    line-height: 17px;
+    margin: 0;
+}

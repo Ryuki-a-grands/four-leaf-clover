@@ -1,0 +1,838 @@
+/*
+  Theme Name: Four-leaf clover
+  Theme URI: http://drthomas.s4.xrea.com/four-leaf-clover/
+  Description: Four-leaf clover is equipped responsive layout, custom menus, custom header, custom color. As the theme setting, you can change  font settings , the border style , adjust the position of the left and right side bar,display the search bar on the header. Also, you can display of any all devices by means of the responsive layout.
+  Author: Dr?Thomas
+  Author URI: https://ja.gravatar.com/drthomas246/
+  Version: 1.0
+  License: GNU General Public License v2 or later
+  License URI: http://www.gnu.org/licenses/gpl-2.0.html
+  Tags: Black,Blue,Brown,Gray,Green,Orange,Pink,Purple,Red,Silver,Tan,White,Yellow, two-columns, right-sidebar, left-sidebar, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, editor-style, rtl-language-support, sticky-post
+  Text Domain: four-leaf-clover
+*/
+/*---------------------------------
+
+	display
+
+---------------------------------*/
+.container {
+  overflow: hidden;
+  *zoom: 1;
+}
+
+/*---------------------------------
+
+	General Setting
+
+---------------------------------*/
+body {
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*---------------------------------
+
+	Typography
+
+---------------------------------*/
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 24px;
+}
+
+h1 {
+  /* 48px */
+  font-size: 300%;
+  line-height: 1;
+}
+
+h2 {
+  /* 48px */
+  font-size: 225%;
+  line-height: 1.3333;
+}
+
+h3 {
+  /* 24px */
+  font-size: 150%;
+  line-height: 1;
+}
+
+h4, h5, h6 {
+  /* 24px */
+  font-size: 100%;
+  line-height: 1.5;
+}
+
+/*---------------------------------
+
+	text design
+
+---------------------------------*/
+.comment-body, .main {
+  margin-left: 60px;
+  margin-bottom: 10px;
+}
+.comment-body p, .main p {
+  display: block;
+  margin: 1em 0;
+}
+.comment-body strong, .main strong {
+  font-weight: bold;
+}
+.comment-body em, .main em {
+  font-style: italic;
+}
+.comment-body ul, .main ul {
+  list-style: disc;
+}
+.comment-body ol, .main ol {
+  list-style: decimal;
+}
+.comment-body li, .main li {
+  margin: 0 0 4px;
+  line-height: 120%;
+  padding: 0;
+  border-top: none;
+}
+.comment-body a, .main a {
+  color: #00f;
+  border-bottom: 1px solid #00f;
+}
+.comment-body .gallery-item a, .main .gallery-item a {
+  border-bottom: none;
+}
+.comment-body .gallery-item img, .main .gallery-item img {
+  border: none;
+  padding: 0;
+}
+.comment-body .tiled-gallery-item a, .main .tiled-gallery-item a {
+  border-bottom: none;
+}
+.comment-body .tiled-gallery-item img, .main .tiled-gallery-item img {
+  border: none;
+  padding: 0;
+  max-width: 100%;
+  height: auto;
+}
+.comment-body sub, .main sub, .comment-body sup, .main sup {
+  font-size: 80%;
+  vertical-align: sub;
+}
+.comment-body sup, .main sup {
+  vertical-align: super;
+}
+.comment-body pre, .main pre {
+  background: #eeeeee none repeat scroll 0 0;
+  border: 1px solid #999999;
+  color: #444444;
+  display: block;
+  font-size: 100%;
+  margin: 1em;
+  overflow: scroll;
+  padding: 0.5em;
+}
+.comment-body td, .main td, .comment-body th, .main th {
+  padding: 10px;
+  border-left: 2px solid #fff;
+  vertical-align: middle;
+}
+.comment-body td:first-child, .main td:first-child, .comment-body th:first-child, .main th:first-child {
+  border-left: none;
+}
+.comment-body th, .main th {
+  text-align: left;
+}
+.comment-body thead th:first-child, .main thead th:first-child {
+  -moz-border-radius: 6px 0 0 0;
+  -webkit-border-radius: 6px;
+  border-radius: 6px 0 0 0;
+}
+.comment-body thead th:last-child, .main thead th:last-child {
+  -moz-border-radius: 0 6px 0 0;
+  -webkit-border-radius: 0;
+  border-radius: 0 6px 0 0;
+}
+.comment-body thead th:only-child, .main thead th:only-child {
+  -moz-border-radius: 6px 6px 0 0;
+  -webkit-border-radius: 6px;
+  border-radius: 6px 6px 0 0;
+}
+.comment-body tfoot td, .main tfoot td, .comment-body tfoot th, .main tfoot th {
+  border-bottom: 0;
+}
+.comment-body tfoot td:first-child, .main tfoot td:first-child, .comment-body tfoot th:first-child, .main tfoot th:first-child {
+  -moz-border-radius: 0 0 0 6px;
+  -webkit-border-radius: 0;
+  border-radius: 0 0 0 6px;
+}
+.comment-body tfoot td:last-child, .main tfoot td:last-child, .comment-body tfoot th:last-child, .main tfoot th:last-child {
+  -moz-border-radius: 0 0 6px 0;
+  -webkit-border-radius: 0;
+  border-radius: 0 0 6px 0;
+}
+.comment-body tfoot td:only-child, .main tfoot td:only-child, .comment-body tfoot th:only-child, .main tfoot th:only-child {
+  -moz-border-radius: 0 0 6px 6px;
+  -webkit-border-radius: 0;
+  border-radius: 0 0 6px 6px;
+}
+.comment-body blockquote, .main blockquote {
+  padding: 10px;
+  -moz-border-radius: 0 6px 6px 0;
+  -webkit-border-radius: 0;
+  border-radius: 0 6px 6px 0;
+  position: relative;
+  z-index: 1;
+}
+.comment-body blockquote:before, .main blockquote:before {
+  content: "\"";
+  position: absolute;
+  line-height: 1em;
+  left: 0;
+  top: 0;
+  font-family: sans-serif;
+  font-size: 400%;
+}
+.comment-body blockquote:after, .main blockquote:after {
+  content: "\"";
+  position: absolute;
+  right: 0;
+  bottom: -0.63em;
+  font-family: sans-serif;
+  font-size: 400%;
+}
+.comment-body dt, .main dt {
+  margin-bottom: 5px;
+}
+.comment-body dd, .main dd {
+  margin-bottom: 15px;
+}
+.comment-body .gallery-item dd, .main .gallery-item dd {
+  margin-left: 0;
+}
+.comment-body q, .main q {
+  quotes: "\"" "\"" "'" "'";
+}
+.comment-body q:before, .main q:before {
+  content: open-quote;
+}
+.comment-body q:after, .main q:after {
+  content: close-quote;
+}
+.comment-body iframe, .main iframe {
+  width: 100%;
+}
+
+.main {
+  margin-left: 0;
+  margin-bottom: 0;
+}
+.main img {
+  max-width: 95%;
+  height: auto;
+  padding: 5px;
+}
+
+/*---------------------------------
+
+	header / footer
+
+---------------------------------*/
+header {
+  margin-top: 50px;
+  margin-bottom: 10px;
+  padding: 0 10px 10px;
+}
+header .left {
+  float: left;
+}
+header .right {
+  float: right;
+}
+header h1 {
+  margin-bottom: 5px;
+}
+header p {
+  margin-left: 10px;
+  font-size: 125%;
+}
+
+footer {
+  display: block;
+  padding: 20px;
+}
+footer .right {
+  font-style: italic;
+}
+
+/*---------------------------------
+
+	navigation
+
+---------------------------------*/
+nav {
+  padding-top: 30px;
+}
+nav > div > ul {
+  position: relative;
+  bottom: 0;
+}
+nav > div > ul > li {
+  display: inline-block;
+  line-height: 20px;
+  height: 18px;
+  padding: 10px 10px 10px 12px;
+}
+nav > div > ul > li > ul {
+  position: absolute;
+  top: 36px;
+  left: 10px;
+}
+nav ul li {
+  position: relative;
+  padding: 0 5px;
+}
+nav ul > li > a {
+  display: block;
+  text-decoration: none;
+}
+nav ul > li > ul {
+  position: absolute;
+  z-index: 100;
+  top: 0;
+  left: 80px;
+}
+nav ul > li > ul > li {
+  visibility: hidden;
+  overflow: hidden;
+  width: auto;
+  height: 0;
+  left: -10px;
+}
+nav ul > li:hover > ul > li {
+  visibility: visible;
+  overflow: visible;
+  z-index: 10;
+  height: auto;
+}
+nav ul > li > ul > li > a {
+  border: 1px solid #aaa;
+  padding: 10px;
+  background-color: #eee;
+}
+
+/*---------------------------------
+
+	main
+
+---------------------------------*/
+#main {
+  margin-bottom: 20px;
+}
+#main article {
+  display: block;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+#main p.more {
+  text-align: right;
+  padding-top: 20px;
+  margin-bottom: 20px;
+}
+#main h2 {
+  -ms-word-wrap: break-word;
+  word-wrap: break-word;
+}
+#main .navi ul {
+  margin-bottom: 36px;
+}
+#main .navi ul li {
+  display: inline;
+  padding: 0 5px;
+}
+#main .alignnone {
+  margin: 5px auto 20px;
+}
+#main .aligncenter {
+  display: block;
+  margin: 5px auto;
+}
+#main .alignright {
+  float: right;
+  display: block;
+  margin: 10px 0 10px 10px;
+}
+#main .alignleft {
+  float: left;
+  display: block;
+  margin: 10px 10px 10px 0;
+}
+#main a img.alignright {
+  float: right;
+}
+#main a img.alignnone {
+  margin: 5px auto 20px;
+}
+#main a img.alignleft {
+  float: left;
+}
+#main a img.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#main .wp-caption {
+  max-width: 96%;
+  padding: 5px 3px 10px;
+  text-align: center;
+}
+#main .wp-caption img {
+  border: 0 none;
+  height: auto;
+  margin: 0;
+  max-width: 98.5%;
+  padding: 0;
+  width: auto;
+}
+#main .wp-caption p.wp-caption-text {
+  font-size: 68.75%;
+  line-height: 17px/11px;
+  margin: 0;
+}
+#main .wp-caption.alignnone {
+  margin: 5px auto 20px;
+}
+#main div.wp-caption {
+  padding: 5px 3px;
+}
+#main article.sticky {
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+}
+
+#navigation {
+  padding-top: 20px;
+}
+#navigation ul li.left {
+  float: left;
+}
+#navigation ul li.right {
+  float: right;
+}
+
+#page-link {
+  padding-top: 20px;
+}
+#page-link ul li {
+  display: inline;
+  padding: 5px 10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+#page-link ul a li {
+  padding: 2px 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+#page-link ul a:hover {
+  border-bottom: 1px solid transparent;
+}
+
+.footer-post-meta {
+  float: right;
+  display: block;
+  margin-top: 10px;
+}
+
+.gallery-caption {
+  font-size: 62.5%;
+}
+
+.screen-reader-text {
+  display: inline;
+}
+
+/*---------------------------------
+
+	side
+
+---------------------------------*/
+aside {
+  margin-bottom: 20px;
+}
+aside section {
+  display: block;
+  padding-top: 30px;
+}
+aside h3 {
+  padding-left: 20px;
+  margin-bottom: 16px;
+}
+aside section ul {
+  padding-left: 30px;
+}
+aside section ul li {
+  padding-top: 8px;
+}
+
+/*---------------------------------
+
+	form
+
+---------------------------------*/
+input[type="submit"], input[type="reset"], input[type="button"] {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 8px 10px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  text-decoration: none;
+  line-height: normal;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 75%;
+}
+input[type="submit"]:active, input[type="reset"]:active, input[type="button"]:active {
+  position: relative;
+  top: 1px;
+}
+input[type="text"], input[type="search"], input[type="password"], input[type="email"], input[type="search"] {
+  margin: 0 0 20px;
+  padding: 6px 4px;
+  max-width: 100%;
+  width: 290px;
+  outline: none;
+  border: 1px solid #ddd;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  background: #eee;
+  color: #777;
+  vertical-align: bottom;
+  font-size: 81.25%;
+}
+input[type="text"]:focus, input[type="search"]:focus, input[type="password"]:focus, input[type="email"]:focus, input[type="search"]:focus {
+  background: #fff;
+  color: #444;
+}
+
+textarea {
+  margin: 0 0 20px;
+  padding: 6px 4px;
+  max-width: 100%;
+  width: 290px;
+  outline: none;
+  border: 1px solid #ddd;
+  -moz-border-radius: 2px;
+  -webkit-border-radius: 2px;
+  border-radius: 2px;
+  background: #eee;
+  color: #777;
+  vertical-align: bottom;
+  font-size: 81.25%;
+  overflow: auto;
+}
+textarea:focus {
+  background: #fff;
+  color: #444;
+}
+
+#comment-area input[type="text"], #comment-area textarea {
+  display: block;
+}
+
+.button, button {
+  display: inline-block;
+  margin-bottom: 20px;
+  padding: 8px 10px;
+  -moz-border-radius: 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px;
+  text-decoration: none;
+  line-height: normal;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 75%;
+}
+.button:active, button:active {
+  position: relative;
+  top: 1px;
+}
+
+/*---------------------------------
+
+	search
+
+---------------------------------*/
+#search {
+  position: relative;
+}
+
+#search-text {
+  padding: 6px 25px 6px 6px;
+  width: 200px;
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+  font-size: 62.5%;
+}
+
+#search-submit {
+  position: absolute;
+  top: -2px;
+  right: 2px;
+  width: 29px;
+  height: 28px;
+  border: none;
+  background: url('images/four-leaf-clover.png') -800px -91px no-repeat;
+}
+
+aside #search-submit {
+  right: 22px;
+}
+
+.search-key {
+  font-size: 150%;
+}
+
+/*---------------------------------
+
+	comments area
+
+---------------------------------*/
+#comment-area h3 {
+  padding-top: 20px;
+}
+#comment-area h3 small {
+  font-size: 100%;
+}
+
+.comments-list li[id^='li-comment'] {
+  margin-top: -1px;
+  padding: 20px 0 0;
+  width: 100%;
+}
+
+.children {
+  padding-left: 10%;
+}
+
+.reply {
+  text-align: right;
+}
+
+.comment-meta {
+  padding-top: 24px;
+  float: right;
+}
+
+.writer_icon {
+  padding: 3px;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.comment-page-link {
+  padding-top: 20px;
+}
+
+span.page-numbers {
+  padding: 5px 10px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+a.page-numbers {
+  padding: 2px 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+p.comment-form-comment {
+  padding-top: 10px;
+}
+
+.bypostauthor {
+  background-color: #fff;
+}
+
+/*---------------------------------
+
+	Calender
+
+---------------------------------*/
+#wp-calendar caption {
+  padding-bottom: 20px;
+}
+#wp-calendar thead > tr > th {
+  padding-bottom: 18px;
+}
+#wp-calendar td#next, #wp-calendar .comment-body th#next, .comment-body #wp-calendar th#next, #wp-calendar .main th#next, .main #wp-calendar th#next {
+  text-align: right;
+}
+#wp-calendar tbody td, #wp-calendar tbody .comment-body th, .comment-body #wp-calendar tbody th, #wp-calendar tbody .main th, .main #wp-calendar tbody th {
+  width: 31px;
+  height: 31px;
+  text-align: center;
+  line-height: 31px;
+}
+#wp-calendar tbody td a, #wp-calendar tbody .comment-body th a, .comment-body #wp-calendar tbody th a, #wp-calendar tbody .main th a, .main #wp-calendar tbody th a {
+  background: url('images/four-leaf-clover.png') -910px 0 no-repeat;
+  display: block;
+  border: none;
+}
+
+.widget_calendar table, .widget_calendar td, .widget_calendar .comment-body th, .comment-body .widget_calendar th, .widget_calendar .main th, .main .widget_calendar th {
+  border-spacing: 5px;
+}
+
+#today {
+  display: block;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+}
+
+/*---------------------------------
+
+	Demonstrating Responsive Design
+
+---------------------------------*/
+@media screen and (max-width: 640px) {
+  /*Smartphone vertical*/
+  aside {
+    display: none;
+  }
+
+  header .right {
+    margin-top: 10px;
+  }
+
+  nav ul > li {
+    font-size: 87.5%;
+  }
+  nav ul > li > ul {
+    width: 60px;
+    left: 60px;
+  }
+  nav ul > li > ul > li > a {
+    padding: 2px;
+  }
+
+  #main {
+    width: 98%;
+    margin: 0 auto;
+  }
+
+  .main ul, .comment-body ul, .main ul, .main ol, .comment-body ol, .main ol {
+    margin: 0 0 2px 1.5em;
+  }
+
+  .main dd, .comment-body dd, .main dd {
+    margin-left: 20px;
+  }
+
+  .main blockquote, .comment-body blockquote, .main blockquote {
+    margin: 10px 10px 10px 20px;
+  }
+}
+@media screen and (min-width: 405px) {
+  /*Smartphone Horizontal*/
+  img.firstimg {
+    float: left;
+    display: block;
+    margin: 0 10px 10px 0;
+  }
+
+  header .right {
+    margin-top: 53px;
+  }
+  header .left {
+    margin-bottom: 25px;
+  }
+
+  nav ul > li {
+    font-size: 100%;
+  }
+  nav ul > li > ul {
+    width: 100px;
+    left: 100px;
+  }
+  nav ul > li > ul > li > a {
+    padding: 5px;
+  }
+
+  .main ul, .comment-body ul, .main ul, .main ol, .comment-body ol, .main ol {
+    margin: 0 0 2px 2em;
+  }
+
+  .main dd, .comment-body dd, .main dd {
+    margin-left: 60px;
+  }
+
+  .main blockquote, .comment-body blockquote, .main blockquote {
+    margin: 10px 10px 10px 60px;
+  }
+}
+@media screen and (min-width: 641px) {
+  /*tablet*/
+  body {
+    width: 640px;
+  }
+
+  header {
+    padding-top: 20px;
+  }
+
+  #main {
+    width: 400px;
+  }
+
+  aside {
+    width: 220px;
+  }
+
+  nav ul > li > ul {
+    width: 150px;
+    left: 150px;
+  }
+  nav ul > li > ul > li > a {
+    padding: 10px;
+  }
+  nav > div > ul > li {
+    padding: 10px 15px 10px 25px;
+  }
+
+  footer .left {
+    float: left;
+  }
+  footer .right {
+    float: right;
+    text-align: right;
+    margin-bottom: 15px;
+  }
+}
+@media screen and (min-width: 800px) {
+  /*Personal computer*/
+  body {
+    width: 800px;
+  }
+
+  #main {
+    width: 550px;
+  }
+}

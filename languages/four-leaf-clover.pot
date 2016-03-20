@@ -1,0 +1,298 @@
+# Copyright (C) 2016 Dr?Thomas
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Four-leaf clover 1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/theme/four-leaf-clover\n"
+"POT-Creation-Date: 2016-02-21 12:21:47+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: 404.php:4
+msgid "That page does not exist."
+msgstr ""
+
+#: 404.php:6
+msgid "You are looking for articles could not be found."
+msgstr ""
+
+#: comments.php:13
+msgid "Comments List"
+msgstr ""
+
+#: functions/setting.php:7
+msgid "Colors"
+msgstr ""
+
+#: functions/setting.php:11
+msgid "Body Color"
+msgstr ""
+
+#: functions/setting.php:30
+msgid "Font Color"
+msgstr ""
+
+#: functions/setting.php:52
+msgid "Base Color"
+msgstr ""
+
+#: functions/setting.php:61
+msgid "Background Color"
+msgstr ""
+
+#: functions/setting.php:67 functions/setting.php:86
+msgid "Image Color"
+msgstr ""
+
+#: functions/setting.php:102
+msgid "Four-leaf clover setting"
+msgstr ""
+
+#: functions/setting.php:111 functions/setting.php:131
+msgid "Layout"
+msgstr ""
+
+#: functions/setting.php:132
+msgid "Position of the side bar"
+msgstr ""
+
+#: functions/setting.php:138
+msgid "Content / Sidebar"
+msgstr ""
+
+#: functions/setting.php:142
+msgid "Sidebar / Content"
+msgstr ""
+
+#: functions/setting.php:164
+msgid "Border style"
+msgstr ""
+
+#: functions/setting.php:170
+msgid "solid"
+msgstr ""
+
+#: functions/setting.php:171
+msgid "double"
+msgstr ""
+
+#: functions/setting.php:172
+msgid "dashed"
+msgstr ""
+
+#: functions/setting.php:173
+msgid "dotted"
+msgstr ""
+
+#: functions/setting.php:193
+msgid "Show search form in the header"
+msgstr ""
+
+#: functions/setting.php:208 functions/setting.php:225
+msgid "Font setting"
+msgstr ""
+
+#: functions/setting.php:226
+msgid "Font family"
+msgstr ""
+
+#: functions/setting.php:232
+msgid "Serif"
+msgstr ""
+
+#: functions/setting.php:233
+msgid "Sans-serif"
+msgstr ""
+
+#: functions/setting.php:234
+msgid "Cursive"
+msgstr ""
+
+#: functions/setting.php:254
+msgid "Font size : "
+msgstr ""
+
+#: functions/setting.php:276 functions/setting.php:293
+msgid "Copyright setting"
+msgstr ""
+
+#: functions/setting.php:294
+msgid "Start year"
+msgstr ""
+
+#: functions/setting.php:316
+msgid "Year of the Last Post is the final year."
+msgstr ""
+
+#: functions/setting.php:338
+msgid "Last year"
+msgstr ""
+
+#: functions/setting.php:370
+msgid "Copyright owner"
+msgstr ""
+
+#: functions/setting.php:646
+msgid "Verdana,sans-serif"
+msgstr ""
+
+#: functions/setting.php:653
+msgid "\"Comic Sans MS\",cursive"
+msgstr ""
+
+#: functions/setting.php:660
+msgid "\"Times New Roman\",serif"
+msgstr ""
+
+#: functions.php:34
+msgid "Primary Navigation"
+msgstr ""
+
+#: functions.php:109
+msgid "Widget Area"
+msgstr ""
+
+#: functions.php:111
+msgid "Add widgets here to appear in your sidebar."
+msgstr ""
+
+#: functions.php:134
+msgid "<cite class=\"fn\">%s</cite> <span class=\"says\">says:</span>"
+msgstr ""
+
+#: functions.php:135
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: functions.php:135
+msgid "(Edit)"
+msgstr ""
+
+#: functions.php:138
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: functions.php:182
+msgid "Copyright &copy; %1$s %2$s All Rights Reserved."
+msgstr ""
+
+#: functions.php:183
+msgid "Use theme of %s"
+msgstr ""
+
+#: functions.php:184
+msgid "https://wordpress.org/"
+msgstr ""
+
+#: functions.php:184
+msgid "Proudly powered by %s"
+msgstr ""
+
+#: index.php:10 search.php:24
+msgid "PREV"
+msgstr ""
+
+#: index.php:11 search.php:29
+msgid "NEXT"
+msgstr ""
+
+#: loop.php:10 single.php:49
+msgid "Posted : "
+msgstr ""
+
+#: loop.php:11 single.php:50
+msgid "Category : "
+msgstr ""
+
+#: loop.php:12 single.php:51
+msgid "No comment."
+msgstr ""
+
+#: loop.php:12 single.php:51
+msgid "Comment : 1"
+msgstr ""
+
+#: loop.php:12 single.php:51
+msgid "Comments : %"
+msgstr ""
+
+#: loop.php:26
+msgid "Read the rest of \"%s\""
+msgstr ""
+
+#: search.php:8 search.php:13
+msgid "search results"
+msgstr ""
+
+#: search.php:9
+msgid "Your search for \"<span class=\"search-key\">%s</span>\", "
+msgstr ""
+
+#: search.php:10
+msgid "found <span class=\"search-key\">%d</span> post."
+msgid_plural "found <span class=\"search-key\">%d</span> posts."
+msgstr[0] ""
+msgstr[1] ""
+
+#: search.php:14
+msgid ""
+"Your search for \"<span class=\"search-key\">%s</span>\", related article "
+"was not found."
+msgstr ""
+
+#: searchform.php:2
+msgid "Search"
+msgstr ""
+
+#: sidebar.php:6
+msgid "No Widget"
+msgstr ""
+
+#: sidebar.php:7
+msgid "Widget has not been set."
+msgstr ""
+
+#: single.php:22
+msgid "Previous Post"
+msgstr ""
+
+#: single.php:38
+msgid "\tNext Post"
+msgstr ""
+
+#: single.php:68
+msgid "Tag : "
+msgstr ""
+
+#: single.php:72
+msgid "Contributor : "
+msgstr ""
+
+#. Theme Name of the plugin/theme
+msgid "Four-leaf clover"
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://drthomas.s4.xrea.com/four-leaf-clover/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Four-leaf clover is equipped responsive layout, custom menus, custom header, "
+"custom color. As the theme setting, you can change  font settings , the "
+"border style , adjust the position of the left and right side bar,display "
+"the search bar on the header. Also, you can display of any all devices by "
+"means of the responsive layout."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Dr?Thomas"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://ja.gravatar.com/drthomas246/"
+msgstr ""
