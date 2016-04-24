@@ -7,7 +7,7 @@ Tags: Black,Blue,Brown,Gray,Green,Orange,Pink,Purple,Red,Silver,Tan,White,Yellow
 
 /***Description***/
 
-Four-leaf clover is equipped with responsive layout, a custom menu, custom header, a custom color. As theme setting, you can change the position of the right and left sidebar and change the setting of the font, the border style and can display the search bar in a header. Also, you can display comfortably at all any devices by a sensitive layout.
+Four-leaf clover is equipped with responsive layout, a custom menu, custom header, a custom color. As theme setting, you can change the position of the right and left sidebar and change the setting of the font, the border style and can display the search bar in a header. Also, you can display comfortably at all any devices by a responsive layout.
 
 /***Copyright & License***/
 
