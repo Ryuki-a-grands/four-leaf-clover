@@ -2,7 +2,7 @@
 
 Requires at least: WordPress 4.4
 Tested up to: WordPress 4.5
-Version: 1.0
+Version: 1.03
 Tags: Black,Blue,Brown,Gray,Green,Orange,Pink,Purple,Red,Silver,Tan,White,Yellow, two-columns, right-sidebar, left-sidebar, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, editor-style, rtl-language-support, sticky-post
 
 /***Description***/
