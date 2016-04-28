@@ -140,7 +140,7 @@ function four_leaf_clover_adds_footer() {
 	}else{
 		$year=$start_year."-".$last_year;
 	}
-	$users =get_users( array('orderby'=>ID,'order'=>ASC) );
+	$users =get_users( array('orderby'=>'ID','order'=>'ASC') );
 	foreach($users as $user){
 		$default_id=$user->ID;
 		break;
