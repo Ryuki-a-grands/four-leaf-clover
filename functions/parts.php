@@ -1,4 +1,5 @@
 <?php
+if ( ! function_exists( 'four_leaf_clover_navi' ) ){
 function four_leaf_clover_navi(){
 ?>
 				<div class="navi">
@@ -19,6 +20,7 @@ function four_leaf_clover_navi(){
 					</ul>
 				</div>
 <?php
+}
 }
 
 /**
