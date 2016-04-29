@@ -465,7 +465,7 @@ function four_leaf_clover_customize_register( $wp_customize ) {
 				)
 			);
 			//Take a display name for all users
-			$users =get_users( array('orderby'=>ID,'order'=>ASC) );
+			$users =get_users( array('orderby'=>'ID','order'=>'ASC') );
 			$cnt=0;
 			foreach($users as $user){
 				if($cnt==0){
