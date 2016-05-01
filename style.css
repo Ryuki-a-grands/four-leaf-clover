@@ -79,7 +79,7 @@ h4, h5, h6 {
 .comment-body p, .main p {
   display: block;
   margin: 1em 0;
-  line-height:1.3em;
+  line-height:1.5em;
 }
 .comment-body strong, .main strong {
   font-weight: bold;
