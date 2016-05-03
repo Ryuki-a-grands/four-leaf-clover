@@ -41,7 +41,7 @@ Initial release
 A little bit of change about Comments area.
 * 1.02 April,14 2016  
 Selection of the display or no-display for the contributor and tag, category column.
-* 1.03  April,20 2016  
+* 1.03 April,20 2016  
 Can do the first post year of the copyright in the start year. I correct wrong translation.
-* 1.04  May,3 2016  
+* 1.04 May,3 2016  
 To avoid underlined when H1 tag header is selected.
