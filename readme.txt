@@ -2,7 +2,7 @@
 
 Requires at least: WordPress 4.4
 Tested up to: WordPress 4.5
-Version: 1.03
+Version: 1.04
 Tags: Black,Blue,Brown,Gray,Green,Orange,Pink,Purple,Red,Silver,Tan,White,Yellow, two-columns, right-sidebar, left-sidebar, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, editor-style, rtl-language-support, sticky-post
 
 /***Description***/
@@ -36,9 +36,11 @@ license: Use it if you like it
 
 1.0  Jan,28 2016
  Initial release
-1.01  May,13 2016
+1.01  April,13 2016
  A little bit of change about Comments area.
-1.02  May,14 2016
+1.02  April,14 2016
  Selection of the display or no-display for the contributor and tag, category column.
-1.03  May,20 2016
+1.03  April,20 2016
  Can do the first post year of the copyright in the start year. I correct wrong translation.
+1.04  May,3 2016 
+ To avoid underlined when H1 tag header is selected.
