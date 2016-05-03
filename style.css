@@ -4,7 +4,7 @@
   Description: Four-leaf clover is equipped with responsive layout, a custom menu, custom header, a custom color. As theme setting, you can change the position of the right and left sidebar and change the setting of the font, the border style and can display the search bar in a header. Also, you can display comfortably at all any devices by a sensitive layout.
   Author: Dr?Thomas
   Author URI: https://ja.gravatar.com/drthomas246/
-  Version: 1.0
+  Version: 1.03
   License: GNU General Public License v2 or later
   License URI: http://www.gnu.org/licenses/gpl-2.0.html
   Tags: Black,Blue,Brown,Gray,Green,Orange,Pink,Purple,Red,Silver,Tan,White,Yellow, two-columns, right-sidebar, left-sidebar, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, editor-style, rtl-language-support, sticky-post
@@ -79,7 +79,6 @@ h4, h5, h6 {
 .comment-body p, .main p {
   display: block;
   margin: 1em 0;
-  line-height:1.5em;
 }
 .comment-body strong, .main strong {
   font-weight: bold;
@@ -210,7 +209,6 @@ h4, h5, h6 {
 }
 .comment-body dd, .main dd {
   margin-bottom: 15px;
-  line-height:1.3em;
 }
 .comment-body .gallery-item dd, .main .gallery-item dd {
   margin-left: 0;
@@ -256,6 +254,9 @@ header .right {
 }
 header h1 {
   margin-bottom: 5px;
+}
+header h1 a:hover {
+  border-bottom: none;
 }
 header p {
   margin-left: 10px;
