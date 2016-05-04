@@ -1,6 +1,6 @@
 /*
   Theme Name: Four-leaf clover
-  Theme URI: http://drthomas.s4.xrea.com/four-leaf-clover/
+  Theme URI: https://www.hobofoto.net/four-leaf-clover/
   Description: Four-leaf clover is equipped with responsive layout, a custom menu, custom header, a custom color. As theme setting, you can change the position of the right and left sidebar and change the setting of the font, the border style and can display the search bar in a header. Also, you can display comfortably at all any devices by a sensitive layout.
   Author: Dr?Thomas
   Author URI: https://ja.gravatar.com/drthomas246/
@@ -79,6 +79,7 @@ h4, h5, h6 {
 .comment-body p, .main p {
   display: block;
   margin: 1em 0;
+  line-height: 1.5;
 }
 .comment-body strong, .main strong {
   font-weight: bold;
