@@ -23,7 +23,7 @@ function four_leaf_clover_setup(){
 	// Add default posts and comments RSS feed links to head
 	add_theme_support( 'automatic-feed-links' );
 	// This theme uses post thumbnails
-	add_theme_support( 'post-thumbnails', array( 'post' ) );
+	add_theme_support( 'post-thumbnails' );
 	// This theme uses menus
 	add_theme_support( 'menus' );
 	// Add title tag
