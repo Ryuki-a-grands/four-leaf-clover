@@ -2,8 +2,8 @@
 
 Requires at least: WordPress 4.4
 Tested up to: WordPress 4.5
-Version: 1.04
-Tags: Black,Blue,Brown,Gray,Green,Orange,Pink,Purple,Red,Silver,Tan,White,Yellow, two-columns, right-sidebar, left-sidebar, responsive-layout, custom-background, custom-colors, custom-header, custom-menu, editor-style, rtl-language-support, sticky-post
+Version: 1.05
+Tags: two-columns, right-sidebar, left-sidebar, custom-background, custom-colors, custom-header, custom-menu, editor-style, rtl-language-support, sticky-post
 
 /***Description***/
 
@@ -44,3 +44,5 @@ license: Use it if you like it
  Can do the first post year of the copyright in the start year. I correct wrong translation.
 1.04  May,3 2016 
  To avoid underlined when H1 tag header is selected.
+1.05  Oct,4 2016 
+ Version up for wordpress 4.6

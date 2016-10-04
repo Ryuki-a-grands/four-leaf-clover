@@ -1,5 +1,6 @@
 <?php
 //Theme customizer setting
+if ( ! function_exists( 'four_leaf_clover_customize_register' ) ){
 function four_leaf_clover_customize_register( $wp_customize ) {
 	// Add a colors panel.
 	$wp_customize->add_panel( 'four_leaf_clover_colors_panel', array(
@@ -497,7 +498,7 @@ function four_leaf_clover_customize_register( $wp_customize ) {
 					)
 				)
 			);
-
+}
 }
 add_action( 'customize_register', 'four_leaf_clover_customize_register' );
 
