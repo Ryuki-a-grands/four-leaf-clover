@@ -11,7 +11,7 @@
 					<?php the_content(); ?>
 				</div>
 			</article>
-<?php 
+<?php
 	$args = array(
 	'before' => '<div id="page-link"><ul>',
 	'after' => '</ul></div>',

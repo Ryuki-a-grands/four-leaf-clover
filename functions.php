@@ -117,6 +117,7 @@ function four_leaf_clover_slug_widgets_init() {
 }
 add_action( 'widgets_init', 'four_leaf_clover_slug_widgets_init' );
 
+if ( ! function_exists( 'four_leaf_clover_adds_footer' ) ){
 function four_leaf_clover_adds_footer() {
 	$lastpost = get_lastpostdate( 'blog' );
 	if(get_theme_mod( 'four_leaf_clover_last_year_setting_value',true )){
@@ -167,7 +168,9 @@ function four_leaf_clover_adds_footer() {
 		</footer>
 <?php
 }
+}
 add_action('wp_footer', 'four_leaf_clover_adds_footer');
+
 
 require_once get_template_directory() . '/functions/parts.php';
 require_once get_template_directory() . '/functions/image.php';
