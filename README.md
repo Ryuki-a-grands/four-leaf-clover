@@ -47,3 +47,5 @@ Can do the first post year of the copyright in the start year. I correct wrong t
 To avoid underlined when H1 tag header is selected.
 *1.05  Oct,4 2016 
  Version up for wordpress 4.6
+*1.06  April,15 2016
+ A little bit of change 
