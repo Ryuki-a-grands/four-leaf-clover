@@ -1,19 +1,19 @@
 <?php
-if (post_password_required()) {
+if ( post_password_required() ) {
 	return;
 }
 ?>
 
 <!-- comment area -->
 <div id="comment-area">
-	<?php 
-	if(have_comments()):
+	<?php
+	if ( have_comments() ) :
 	?>
 
-		<h3 id="comments"><?php _e('Comments List','four-leaf-clover')?></h3>
+		<h3 id="comments"><?php  esc_html_e( 'Comments List','four-leaf-clover' )?></h3>
 	
 		<ol class="comments-list">
-		<?php wp_list_comments('callback=four_leaf_clover_comment'); ?>
+		<?php wp_list_comments( 'callback=four_leaf_clover_comment' ); ?>
 		</ol>
 		
 		<div class="comment-page-link">
@@ -23,7 +23,7 @@ if (post_password_required()) {
 	endif;
 	if ( ! comments_open() && get_comments_number() && post_type_supports( get_post_type(), 'comments' ) ) :
 	?>
-		<p class="no-comments"><?php _e( 'Comments are closed.', 'four-leaf-clover' ); ?></p>
+		<p class="no-comments"><?php  esc_html_e( 'Comments are closed.', 'four-leaf-clover' ); ?></p>
 <?php
 	endif;
 	comment_form();

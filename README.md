@@ -2,12 +2,12 @@
 
 * Requires at least: WordPress 4.4
 * Tested up to: WordPress 4.5
-* Version: 1.04
-* Tags: two-columns, right-sidebar, left-sidebar, custom-background, custom-colors, custom-header, custom-menu, editor-style, rtl-language-support, sticky-post
+* Version: 1.07
+* Tags: two-columns, right-sidebar, left-sidebar, custom-background, custom-colors, custom-menu, editor-style, rtl-language-support, sticky-post
 
 ## Description
 
-Four-leaf clover is equipped with responsive layout, a custom menu, custom header, a custom color. As theme setting, you can change the position of the right and left sidebar and change the setting of the font, the border style and can display the search bar in a header. Also, you can display comfortably at all any devices by a responsive layout.
+Four-leaf clover is equipped with responsive layout, a custom menu, a custom color. As theme setting, you can change the position of the right and left sidebar and change the setting of the font, the border style and can display the search bar in a header. Also, you can display comfortably at all any devices by a responsive layout.
 ![screenshot](screenshot.png)
 
 ## Copyright & License
@@ -46,6 +46,8 @@ Can do the first post year of the copyright in the start year. I correct wrong t
 * 1.04 May,3 2016  
 To avoid underlined when H1 tag header is selected.
 *1.05  Oct,4 2016 
- Version up for wordpress 4.6
+ Version up for wordpress 4.6.
 *1.06  April,15 2016
- A little bit of change 
+ A little bit of change.
+*1.07  June,4 2017
+ Resolve errors in php.
