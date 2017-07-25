@@ -155,10 +155,15 @@ if ( ! function_exists( 'four_leaf_clover_adds_footer' ) ) {
 }// End if().
 add_action( 'wp_footer', 'four_leaf_clover_adds_footer' );
 
-
-require_once get_template_directory() . '/functions/parts.php';
-require_once get_template_directory() . '/functions/image.php';
+if ( ! class_exists( 'parts' )) {
+	require_once get_template_directory() . '/functions/parts.php';
+}
+if ( ! class_exists( 'image' )) {
+	require_once get_template_directory() . '/functions/image.php';
+}
 /**
  * Custom color for this theme.
  */
-require_once get_template_directory() . '/functions/setting.php';
+if ( ! class_exists( 'setting' )) {
+	require_once get_template_directory() . '/functions/setting.php';
+}

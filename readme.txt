@@ -2,7 +2,7 @@
 
 Requires at least: WordPress 4.4
 Tested up to: WordPress 4.5
-Version: 1.07
+Version: 1.08
 Tags: two-columns, right-sidebar, left-sidebar, custom-background, custom-colors, custom-menu, editor-style, rtl-language-support, sticky-post
 
 /***Description***/
@@ -49,4 +49,6 @@ license: Use it if you like it
 1.06  April,15 2016
  A little bit of change
 1.07  June,4 2017
+ Resolve errors in php.
+1.08  July,25 2017
  Resolve errors in php.

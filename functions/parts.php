@@ -30,7 +30,7 @@ if ( ! post_password_required() && ( comments_open() || get_comments_number() ) 
  * simply create your own four_leaf_clover_comment(), and that function will be used instead.
  */
 function four_leaf_clover_comment( $comment, $args, $depth ) {
-	$GLOBALS['comment'] = $comment; ?>
+?>
 	<li <?php comment_class(); ?> id="li-comment-<?php comment_ID() ?>">
 		<div id="comment-<?php comment_ID(); ?>">
 			<div class="comment-author vcard">
